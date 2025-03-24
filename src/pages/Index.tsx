@@ -1,13 +1,26 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { useEffect } from 'react';
+import Hero from '@/components/home/Hero';
+import Services from '@/components/home/Services';
+import Process from '@/components/home/Process';
+import Testimonials from '@/components/home/Testimonials';
+import Contact from '@/components/home/Contact';
+import Cta from '@/components/home/Cta';
 
 const Index = () => {
+  useEffect(() => {
+    document.title = "Taxi VSL - Transport conventionné et sanitaire";
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
-    </div>
+    <main>
+      <Hero />
+      <Services />
+      <Process />
+      <Testimonials />
+      <Contact />
+      <Cta />
+    </main>
   );
 };
 
