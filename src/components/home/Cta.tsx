@@ -2,6 +2,7 @@
 import { ArrowRight, Phone, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import { CompanyInfo } from '../shared/CompanyInfo';
 
 const Cta = () => {
   return (
@@ -48,9 +49,9 @@ const Cta = () => {
               size="lg" 
               className="bg-white text-taxi-blue hover:bg-white/90"
             >
-              <a href="tel:+33600000000" className="flex items-center gap-2 px-8">
+              <a href={`tel:${CompanyInfo.phone}`} className="flex items-center gap-2 px-8">
                 <Phone size={18} />
-                <span>06 00 00 00 00</span>
+                <span>07 67 45 40 45</span>
               </a>
             </Button>
             

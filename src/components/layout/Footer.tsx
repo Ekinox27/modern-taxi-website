@@ -1,6 +1,7 @@
 
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, Clock, ExternalLink } from 'lucide-react';
+import { CompanyInfo } from '../shared/CompanyInfo';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -10,7 +11,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
-            <h3 className="text-xl font-semibold mb-6">Taxi VSL</h3>
+            <h3 className="text-xl font-semibold mb-6">{CompanyInfo.name}</h3>
             <p className="text-gray-300 mb-4">
               Transport sanitaire et taxi conventionné à votre service 7j/7. Nous assurons vos déplacements médicaux avec professionnalisme et confort.
             </p>
@@ -56,8 +57,8 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <Phone size={18} className="mt-0.5 flex-shrink-0 text-taxi-lightBlue" />
-                <a href="tel:+33600000000" className="text-gray-300 hover:text-white transition-colors">
-                  06 00 00 00 00
+                <a href={`tel:${CompanyInfo.phone}`} className="text-gray-300 hover:text-white transition-colors">
+                  07 67 45 40 45
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -69,8 +70,7 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="mt-0.5 flex-shrink-0 text-taxi-lightBlue" />
                 <span className="text-gray-300">
-                  12 rue des Taxis<br />
-                  75000 Paris
+                  {CompanyInfo.address}
                 </span>
               </li>
               <li className="flex items-start gap-3">
@@ -85,7 +85,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; {currentYear} Taxi VSL. Tous droits réservés.
+            &copy; {currentYear} {CompanyInfo.name}. Tous droits réservés.
           </p>
           <div className="flex flex-wrap gap-4 text-sm text-gray-400">
             <Link to="/mentions-legales" className="hover:text-white transition-colors">

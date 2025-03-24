@@ -1,6 +1,6 @@
-
 import { Phone, Send, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { CompanyInfo } from '../shared/CompanyInfo';
 
 const Contact = () => {
   return (
@@ -89,8 +89,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Téléphone</p>
-                    <a href="tel:+33600000000" className="text-taxi-blue hover:underline">
-                      06 00 00 00 00
+                    <a href={`tel:${CompanyInfo.phone}`} className="text-taxi-blue hover:underline">
+                      07 67 45 40 45
                     </a>
                     <p className="text-sm text-muted-foreground mt-1">
                       Disponible 7j/7, 24h/24
@@ -128,7 +128,7 @@ const Contact = () => {
                 variant="outline" 
                 className="w-full bg-white text-taxi-blue hover:bg-white/90 border-0"
               >
-                <a href="tel:+33600000000" className="flex items-center justify-center gap-2">
+                <a href={`tel:${CompanyInfo.phone}`} className="flex items-center justify-center gap-2">
                   <Phone size={16} />
                   <span>Appelez-nous maintenant</span>
                 </a>

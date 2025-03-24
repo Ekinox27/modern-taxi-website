@@ -1,6 +1,7 @@
 
 import { Phone } from 'lucide-react';
 import { useState, useEffect } from 'react';
+import { CompanyInfo } from '../shared/CompanyInfo';
 
 const CallButton = () => {
   const [visible, setVisible] = useState(false);
@@ -31,7 +32,7 @@ const CallButton = () => {
 
   return (
     <a
-      href="tel:+33600000000"
+      href={`tel:${CompanyInfo.phone}`}
       className={`call-button ${visible ? 'opacity-100' : 'opacity-0 pointer-events-none'} ${
         pulsing ? 'scale-110' : ''
       }`}

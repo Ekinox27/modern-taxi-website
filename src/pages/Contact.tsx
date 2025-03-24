@@ -1,11 +1,11 @@
-
 import { useEffect } from 'react';
 import { Phone, Mail, MapPin, Clock, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { CompanyInfo } from '@/components/shared/CompanyInfo';
 
 const Contact = () => {
   useEffect(() => {
-    document.title = "Contactez-nous - Taxi VSL";
+    document.title = `Contactez-nous - ${CompanyInfo.name}`;
   }, []);
 
   return (
@@ -43,10 +43,10 @@ const Contact = () => {
                       Disponible 7j/7 pour vos réservations
                     </p>
                     <a 
-                      href="tel:+33600000000" 
+                      href={`tel:${CompanyInfo.phone}`}
                       className="text-taxi-blue hover:underline font-bold text-xl"
                     >
-                      06 00 00 00 00
+                      07 67 45 40 45
                     </a>
                   </div>
                 </div>

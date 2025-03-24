@@ -11,7 +11,7 @@ export const CompanyInfo = {
     "Toutes distances",
     "Disponible 7j/7 24h/24"
   ],
-  phone: "+33600000000" // À remplacer par le vrai numéro
+  phone: "+33767454045" // Numéro mis à jour
 };
 
 export default CompanyInfo;
