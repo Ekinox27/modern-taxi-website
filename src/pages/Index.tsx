@@ -9,7 +9,7 @@ import Cta from '@/components/home/Cta';
 
 const Index = () => {
   useEffect(() => {
-    document.title = "Taxi VSL - Transport conventionné et sanitaire";
+    document.title = "Taxi Nemmassi - Transport conventionné et sanitaire";
   }, []);
 
   return (

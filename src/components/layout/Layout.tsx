@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import CallButton from './CallButton';
 import { useLocation } from 'react-router-dom';
+import { CompanyInfo } from '../shared/CompanyInfo';
 
 interface LayoutProps {
   children: ReactNode;
@@ -15,6 +16,11 @@ const Layout = ({ children }: LayoutProps) => {
   useEffect(() => {
     // Scroll to top on route change
     window.scrollTo(0, 0);
+    
+    // Set default title if not set by page component
+    if (!document.title.includes(CompanyInfo.name)) {
+      document.title = `${CompanyInfo.name} - Transport conventionné et sanitaire`;
+    }
   }, [location.pathname]);
 
   return (

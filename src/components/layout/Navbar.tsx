@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { CompanyInfo } from '../shared/CompanyInfo';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,7 +51,7 @@ const Navbar = () => {
             className="flex items-center gap-2 font-display font-bold text-2xl text-taxi-blue"
           >
             <span className="text-taxi-blue">Taxi</span>
-            <span className="text-taxi-darkBlue">VSL</span>
+            <span className="text-taxi-darkBlue">Nemmassi</span>
           </Link>
 
           {/* Navigation menu - desktop */}
@@ -68,7 +69,7 @@ const Navbar = () => {
               asChild 
               className="ml-4 bg-taxi-blue hover:bg-taxi-darkBlue"
             >
-              <a href="tel:+33600000000" className="flex items-center gap-2">
+              <a href={`tel:${CompanyInfo.phone}`} className="flex items-center gap-2">
                 <Phone size={16} />
                 <span className="hidden sm:inline">Appelez-nous</span>
               </a>
@@ -83,7 +84,7 @@ const Navbar = () => {
               variant="outline"
               className="rounded-full bg-taxi-blue text-white border-none hover:bg-taxi-darkBlue"
             >
-              <a href="tel:+33600000000">
+              <a href={`tel:${CompanyInfo.phone}`}>
                 <Phone size={18} />
               </a>
             </Button>
@@ -119,7 +120,7 @@ const Navbar = () => {
             asChild 
             className="w-full mt-4 bg-taxi-blue hover:bg-taxi-darkBlue"
           >
-            <a href="tel:+33600000000" className="flex items-center justify-center gap-2">
+            <a href={`tel:${CompanyInfo.phone}`} className="flex items-center justify-center gap-2">
               <Phone size={16} />
               <span>Appelez-nous</span>
             </a>
