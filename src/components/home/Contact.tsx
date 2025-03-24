@@ -104,8 +104,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Adresse</p>
-                    <p>12 rue des Taxis</p>
-                    <p>75000 Paris</p>
+                    <p>13 rue des pruniers</p>
+                    <p>55000 Longeville en barrois</p>
                   </div>
                 </div>
               </div>
@@ -113,7 +113,7 @@ const Contact = () => {
               <div className="mt-6 pt-6 border-t border-border">
                 <h4 className="font-medium mb-3">Zones desservies</h4>
                 <p className="text-muted-foreground">
-                  Nous couvrons toute la région parisienne et proposons également des trajets longue distance sur demande.
+                  Nous couvrons toute la lorraine et proposons également des trajets longue distance sur demande. (Navette aéroport, gare, port...)
                 </p>
               </div>
             </div>

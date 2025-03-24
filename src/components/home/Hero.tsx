@@ -28,7 +28,7 @@ const Hero = () => {
               size="lg" 
               className="bg-taxi-blue hover:bg-taxi-darkBlue text-white font-medium px-8"
             >
-              <a href="tel:+33600000000" className="flex items-center gap-2">
+              <a href="tel:+33767454045" className="flex items-center gap-2">
                 <Phone size={18} />
                 <span>Appelez-nous</span>
               </a>
