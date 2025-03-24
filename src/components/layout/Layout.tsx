@@ -13,7 +13,7 @@ const Layout = ({ children }: LayoutProps) => {
   const location = useLocation();
   
   useEffect(() => {
-    // Scroller en haut de la page lors du changement de route
+    // Scroll to top on route change
     window.scrollTo(0, 0);
   }, [location.pathname]);
 
