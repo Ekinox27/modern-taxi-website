@@ -147,7 +147,7 @@ const Testimonials = () => {
               className="bg-white text-taxi-blue hover:bg-gray-100"
             >
               <a href="tel:+33767454045" className="text-lg">
-                Appelez-nous au 07 67 45 40 45
+                Appelez-nous au 06 00 00 00 00
               </a>
             </Button>
           </div>

@@ -58,9 +58,9 @@ const Cta = () => {
             <Button 
               asChild
               size="lg" 
-              className="bg-white text-taxi-blue hover:bg-white/90"
+              variant="outline" 
+              className="text-white border-white/30 hover:bg-white/10"
             >
-              
               <Link to="/contact" className="flex items-center gap-2">
                 <span>Demande de devis</span>
                 <ArrowRight size={16} />

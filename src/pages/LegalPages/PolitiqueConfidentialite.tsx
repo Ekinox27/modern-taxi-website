@@ -87,7 +87,7 @@ const PolitiqueConfidentialite = () => {
               <li>Droit d'opposition au traitement</li>
             </ul>
             <p>
-              Pour exercer ces droits, veuillez nous contacter à l'adresse email suivante : Zak.nemm@gmail.com ou par courrier à : Taxi VSL, 13 rue des pruniers, 55000 Longeville en barrois.
+              Pour exercer ces droits, veuillez nous contacter à l'adresse email suivante : contact@taxivsl.fr ou par courrier à : Taxi VSL, 12 rue des Taxis, 75000 Paris.
             </p>
             
             <h2>8. Cookies</h2>
@@ -106,10 +106,10 @@ const PolitiqueConfidentialite = () => {
             </p>
             <p>
               Taxi VSL<br />
-              13 rue des pruniers<br />
-              55000 Longeville en barrois<br />
-              Email : Zak.nemm@gmail.com<br />
-              Téléphone : 07 67 45 40 45
+              12 rue des Taxis<br />
+              75000 Paris<br />
+              Email : contact@taxivsl.fr<br />
+              Téléphone : 06 00 00 00 00
             </p>
           </div>
         </div>
