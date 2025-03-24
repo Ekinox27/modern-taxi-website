@@ -61,10 +61,10 @@ const Contact = () => {
                       Pour vos demandes de renseignements
                     </p>
                     <a 
-                      href="mailto:contact@taxivsl.fr" 
+                      href="mailto:Zak.nemm@gmail.com" 
                       className="text-taxi-blue hover:underline"
                     >
-                      contact@taxivsl.fr
+                      Zak.nemm@gmail.com
                     </a>
                   </div>
                 </div>
@@ -79,8 +79,8 @@ const Contact = () => {
                       Notre bureau principal
                     </p>
                     <address className="not-italic">
-                      12 rue des Taxis<br />
-                      75000 Paris
+                      13 rue des pruniers<br />
+                      55000 Longeville en barrois
                     </address>
                   </div>
                 </div>

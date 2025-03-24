@@ -22,17 +22,17 @@ const MentionsLegales = () => {
               Forme juridique : [FORME JURIDIQUE]<br />
               Capital social : [MONTANT] euros<br />
               SIRET : [NUMÉRO SIRET]<br />
-              Siège social : 12 rue des Taxis, 75000 Paris<br />
-              Téléphone : 06 00 00 00 00<br />
-              Email : contact@taxivsl.fr
+              Siège social : 13 rue des pruniers, 55000 Longeville en barrois<br />
+              Téléphone : 07 67 45 40 45<br />
+              Email : Zak.nemm@gmail.com
             </p>
 
             <h2>2. Directeur de la publication</h2>
             <p>
               [NOM DU DIRECTEUR DE PUBLICATION]<br />
-              Adresse : 12 rue des Taxis, 75000 Paris<br />
-              Téléphone : 06 00 00 00 00<br />
-              Email : contact@taxivsl.fr
+              Adresse : 13 rue des pruniers, 55000 Longeville en barrois<br />
+              Téléphone : 07 67 45 40 45<br />
+              Email : Zak.nemm@gmail.com
             </p>
 
             <h2>3. Hébergement du site</h2>
@@ -52,7 +52,7 @@ const MentionsLegales = () => {
 
             <h2>5. Données personnelles</h2>
             <p>
-              Les informations recueillies sur ce site font l'objet d'un traitement informatique destiné à la gestion de notre clientèle et à des fins statistiques. Conformément à la loi "Informatique et Libertés" du 6 janvier 1978 modifiée en 2004, vous bénéficiez d'un droit d'accès et de rectification aux informations qui vous concernent, que vous pouvez exercer en vous adressant à Taxi VSL, 12 rue des Taxis, 75000 Paris.
+              Les informations recueillies sur ce site font l'objet d'un traitement informatique destiné à la gestion de notre clientèle et à des fins statistiques. Conformément à la loi "Informatique et Libertés" du 6 janvier 1978 modifiée en 2004, vous bénéficiez d'un droit d'accès et de rectification aux informations qui vous concernent, que vous pouvez exercer en vous adressant à Taxi VSL, 13 rue des pruniers, 55000 Longeville en barrois.
             </p>
 
             <h2>6. Cookies</h2>

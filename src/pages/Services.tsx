@@ -197,7 +197,7 @@ const Services = () => {
                 size="lg"
               >
                 <a href="tel:+33767454045" className="flex items-center gap-2">
-                  Appelez-nous au 06 00 00 00 00
+                  Appelez-nous au 07 67 45 40 45
                 </a>
               </Button>
             </div>
